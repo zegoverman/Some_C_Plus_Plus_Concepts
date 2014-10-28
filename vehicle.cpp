@@ -55,7 +55,7 @@ vehicle vehicle::operator+(vehicle op){
 	temp.fuelcap = this->fuelcap + op.fuelcap;
 	temp.mpg = mpg + op.mpg; // mpg is the miles per galleon of the LHS object and op.mpg is the miles per galleon of RHS object
 	temp.seats = seats + op.seats;
-	return temp; // returns a new object so the origonals are unaltered by the operation, like an actual addition operation
+	return temp; // returns a new object so the originals are unaltered by the operation, like an actual addition operation
 }
 
 // output stream
